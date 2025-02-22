@@ -58,7 +58,7 @@
           "settings": {
             "heading": "{{ block.settings.page.title }}",
             "icon": "leather",
-            "content": "{{ block.settings.page.content }}",
+            "content": "<p>{{ metaobjects.benefits[\"prebiotic-fiber\"].benefit_description | metafield_tag }}</p>",
             "page": ""
           }
         },
