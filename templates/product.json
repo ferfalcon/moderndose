@@ -61,7 +61,7 @@
           "settings": {
             "heading": "Materials{{ block.settings.page.title }}",
             "icon": "leather",
-            "content": "<p>Cognitive ++</p>",
+            "content": "{{ block.settings.page.content }}",
             "page": ""
           }
         },
