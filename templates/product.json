@@ -143,7 +143,7 @@
         "icon_color": "rgba(0,0,0,0)",
         "hover_color": "{{ shop.brand.colors.primary[0].background }}",
         "question_color": "{{ shop.brand.colors.primary[0].background }}",
-        "background_color": "{{ shop.brand.colors.primary[0].background }}",
+        "background_color": "rgba(0,0,0,0)",
         "answer_color": "{{ shop.brand.colors.primary[0].background }}",
         "answer_bg_color": "{{ shop.brand.colors.primary[0].background }}",
         "questions-font-size": 1.7
