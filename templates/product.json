@@ -114,9 +114,9 @@
           "type": "collapsible_row",
           "source": "{{ metaobjects.benefits[\"digestive-health-gut-flora-balance\"] }}",
           "settings": {
-            "heading": "",
+            "heading": "{{ block.settings.page.title }}",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "{{ block.settings.page.content }}",
             "page": ""
           }
         },
