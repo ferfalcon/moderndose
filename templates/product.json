@@ -45,10 +45,10 @@
         "subscriptions_app_block_jj3Byh": {
           "type": "shopify://apps/subscriptions/blocks/app-block/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
           "settings": {
-            "color_text_title": "#6D7175",
-            "color_text_body": "#6D7175",
-            "dividers_color": "#8F8D8D",
-            "bacgkround_color": "#FFFFFF",
+            "color_text_title": "#6d7175",
+            "color_text_body": "#6d7175",
+            "dividers_color": "#8f8d8d",
+            "bacgkround_color": "#ffffff",
             "border_thickness": 1,
             "border_radius": 0,
             "supporting_text_title": "Purchase options",
@@ -122,11 +122,38 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "ss_simple_faq_tU4g7Q": {
+      "type": "ss-simple-faq",
+      "blocks": {
+        "text_6G7yaj": {
+          "type": "text",
+          "repeater": "{{ product.metafields.custom.benefits3.value }}",
+          "settings": {
+            "question": "{{ block.repeater.name.value }}",
+            "answer": "<p>{{ block.repeater.description | metafield_tag }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_6G7yaj"
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "icon_color": "#fff",
+        "hover_color": "#EFEFEF",
+        "question_color": "#fff",
+        "background_color": "#D5CAA6",
+        "answer_color": "#000",
+        "answer_bg_color": "#fff",
+        "questions-font-size": 1.5
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "17402614824d92ef70"
+    "17402614824d92ef70",
+    "ss_simple_faq_tU4g7Q"
   ]
 }
