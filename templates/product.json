@@ -110,16 +110,6 @@
             "page": ""
           }
         },
-        "collapsible_row_WDbne8": {
-          "type": "collapsible_row",
-          "source": "{{ metaobjects.benefits[\"digestive-health-gut-flora-balance\"] }}",
-          "settings": {
-            "heading": "{{ block.settings.page.title }}",
-            "icon": "check_mark",
-            "row_content": "{{ block.settings.page.content }}",
-            "page": ""
-          }
-        },
         "collapsible_row_jBBLpw": {
           "type": "collapsible_row",
           "settings": {
@@ -141,7 +131,6 @@
       },
       "block_order": [
         "collapsible_row_VfG4jA",
-        "collapsible_row_WDbne8",
         "collapsible_row_jBBLpw",
         "collapsible_row_eqQiyW"
       ],
