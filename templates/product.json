@@ -104,9 +104,9 @@
         "collapsible_row_VfG4jA": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "{{ metaobjects.benefits[\"prebiotic-fiber\"].name.value }}",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>{{ metaobjects.benefits[\"prebiotic-fiber\"].description | metafield_tag }}</p>",
             "page": ""
           }
         },
