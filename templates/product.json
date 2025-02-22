@@ -53,7 +53,7 @@
             "border_radius": 0,
             "supporting_text_title": "Purchase options",
             "subscription_policy_url": "",
-            "product": "{{product}}"
+            "product": "{{ product }}"
           }
         },
         "buy_buttons": {
@@ -140,12 +140,12 @@
       ],
       "settings": {
         "heading": "Frequently Asked Questions",
-        "icon_color": "#fff",
-        "hover_color": "#EFEFEF",
-        "question_color": "#fff",
-        "background_color": "#D5CAA6",
-        "answer_color": "#000",
-        "answer_bg_color": "#fff",
+        "icon_color": "#ffffff",
+        "hover_color": "#efefef",
+        "question_color": "#ffffff",
+        "background_color": "#d5caa6",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
         "questions-font-size": 1.5
       }
     }
