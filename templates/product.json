@@ -146,7 +146,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Collapsible content{{ metaobjects.benefit[\"benefit-i4ljmqc6\"].benefit.value }}",
+        "heading": "Collapsible content",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
