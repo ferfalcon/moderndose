@@ -234,8 +234,8 @@
         "benefit_aENYpb": {
           "type": "benefit",
           "settings": {
-            "benefit_title": "Example",
-            "benefit_description": "Example description"
+            "benefit_title": "Example{{ product.metafields.custom.benefits | metafield_text }}",
+            "benefit_description": ""
           }
         }
       },
