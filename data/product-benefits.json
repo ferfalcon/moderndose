@@ -1,0 +1,52 @@
+{
+  "Biotic Blend": {
+		"benefits": {
+			"Prebiotic Fiber": "XOS and GOS promote the growth of beneficial bacteria, aiding digestion and bowel function, and helping alleviate mild constipation.*",
+			"Digestive Health & Gut Flora Balance": "All ingredients in Biotic Blend work together to optimize gut flora balance. Probiotic strains L. rhamnosus, L. acidophilus, L. plantarum, B. animalis, and B. coagulans have been studied for their potential in reducing occasional bloating, constipation, and gas, while promoting overall digestive health.*",
+			"Immune Health": "13 carefully selected probiotic strains help fortify immune health by promoting a diverse gut microbiome. With approximately 70% of the immune system residing in the gut, probiotics nurture a balanced microbiota for enhanced immunity.*",
+			"Brain Health": "L. reuteri, L. salivarius, B. breve, and L. paracasei strains are scientifically supported to help enhance cognitive function and promote healthy aging by optimizing gut-brain communication.*",
+			"Stress & Mood Support": "Considering that ~95% of serotonin, known as the 'happy hormone,' is produced in the gut, research indicates that integrating diverse probiotic strains could positively impact gut-brain communication. This may lead to lower stress levels and improved mood, highlighting the importance of gut health for mental health*.",
+			"Postbiotics": "Promotes nutrient absorption and supports probiotic growth. Our postbiotic blend also helps regulate immune response and enhance overall gut health with antioxidative properties.*"
+		}
+  },
+  "Essential Health": {
+		"benefits": {
+			"Immune Health": "Vitamin D3 promotes immune cell function, while zinc supports immune response, collectively fortifying immune health.*",
+			"Energy Support": "Vitamin B12 plays a vital role in energy metabolism by aiding in the conversion of food into energy, promoting overall vitality and stamina.*",
+			"Bone Health": "Vitamin D3, K2, and magnesium support bone health by promoting calcium absorption, crucial for building and maintaining robust bone structure and mass.*",
+			"Heart Health": "Folate promotes heart health by supporting healthy blood flow and contributing to the regulation of homocysteine levels.*",
+			"Brain Health": "Vitamin B12, an essential nutrient for a healthy nervous system, promotes brain health.*",
+			"Cellular Health": "Folate, an essential B-vitamin, supports overall health by aiding in DNA synthesis and cell function.*"
+		}
+  },
+	"Cognition Boost": {
+		"benefits": {
+			"Cognition Boost": "Each ingredient exhibits neuroprotective and cognitive performance-boosting properties.*",
+			"Sharpens Focus and Attention": "Phosphatidylserine and American ginseng synergistically can help boost focus and attention by supporting neurotransmitter function, neuronal communication, and cognitive performance.*",
+			"Enhances Memory": "Scientifically supported ingredients — phosphatidylserine, PQQ, American ginseng, and citicoline can collectively help enhance memory recollection in both healthy and aging adults.*",
+			"Boosts Mental Clarity": "PQQ's potent antioxidant and neuroprotective effects contribute to enhanced mental clarity, promoting sharper cognitive function and improved focus.*"
+		}
+  },
+	"Stress & Mood Balance": {
+		"benefits": {
+			"Helps Relieve Stress": "These adaptogens help regulate cortisol levels, promote cellular and systemic balance to effectively alleviate stress and combat stress-related fatigue.*",
+			"Promotes an Elevated Mood": "Saffron aids in relieving occasional symptoms of depressed mood by keeping serotonin in the brain longer, thereby enhancing its positive effects and overall mood.*",
+			"Reduces Ocassional Symptoms of Anxiety": "Ashwagandha and L-Theanine work together to help reduce anxiousness and promote relaxation. Both adaptogens help modulate neurotransmitters, providing a comprehensive solution for a calmer state of mind.*"
+		}
+  },
+	"Joint Support": {
+		"benefits": {
+			"Supports a Healthy Inflammatory Response": "Both curcumin, found in turmeric, and boswellia serrata exhibit powerful anti-inflammatory properties, aiding in the body's natural response to inflammation.*",
+			"Promotes Cartilage Health": "Type II collagen is critical for joint health as it is the main component of cartilage, promoting repair, flexibility, and overall well-being of the skeletal system.*",
+			"Supports Joint Comfort & Mobility": "The synergistic blend of curcumin, type II collagen, and boswellia serrata promotes joint comfort and mobility by addressing inflammation, supporting cartilage repair, and enhancing overall joint health.*"
+		}
+  },
+	"Sleep Aid": {
+		"benefits": {
+			"Sleep Aid": "The combination of glycine and melatonin helps shorten latency to sleep onset when ingested before bedtime.*",
+			"Minimizes Nighttime Awakenings": "The complex of magnesium, melatonin, and vitamin B6 helps to reduce sleep disturbances.*",
+			"Encourages Deep Sleep": "Glycine helps stabilize the sleep state, promoting deeper, higher quality sleep without alterations in sleep architecture.*",
+			"Helps Regulate Sleep Cycles": "Supports healthy sleep cycles by regulating essential hormones and providing calming effects, promoting a restful night's sleep.*"
+		}
+  }
+}
