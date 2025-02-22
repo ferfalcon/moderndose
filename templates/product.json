@@ -49,7 +49,7 @@
             "show_gift_card_recipient": true
           }
         },
-        "subscriptions_app_block_4tcDbX": {
+        "subscriptions_app_block_Rkb9jW": {
           "type": "shopify://apps/subscriptions/blocks/app-block/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
           "settings": {
             "color_text_title": "#6D7175",
@@ -59,7 +59,7 @@
             "border_thickness": 1,
             "border_radius": 0,
             "supporting_text_title": "Purchase options",
-            "subscription_policy_url": "shopify://policies/privacy-policy",
+            "subscription_policy_url": "",
             "product": "{{product}}"
           }
         }
@@ -72,7 +72,7 @@
         "variant_picker",
         "price",
         "buy_buttons",
-        "subscriptions_app_block_4tcDbX"
+        "subscriptions_app_block_Rkb9jW"
       ],
       "settings": {
         "enable_sticky_info": true,
