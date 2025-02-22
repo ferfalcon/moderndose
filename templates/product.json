@@ -98,25 +98,55 @@
         "padding_bottom": 28
       }
     },
-    "collapsible_content_aYrP3k": {
+    "collapsible_content_RGLUTt": {
       "type": "collapsible-content",
       "blocks": {
-        "collapsible_row_pchTxE": {
+        "collapsible_row_VfG4jA": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Collapsible row",
             "icon": "check_mark",
-            "row_content": "{{ product.metafields.custom.benefits3 | metafield_tag: field: 'benefit' }}<p></p>",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_WDbne8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_jBBLpw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_eqQiyW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
             "page": ""
           }
         }
       },
       "block_order": [
-        "collapsible_row_pchTxE"
+        "collapsible_row_VfG4jA",
+        "collapsible_row_WDbne8",
+        "collapsible_row_jBBLpw",
+        "collapsible_row_eqQiyW"
       ],
       "settings": {
         "caption": "",
-        "heading": "Collapsible content",
+        "heading": "Collapsible content{{ metaobjects.benefit[\"benefit-i4ljmqc6\"].benefit.value }}",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
@@ -133,6 +163,6 @@
   "order": [
     "main",
     "related-products",
-    "collapsible_content_aYrP3k"
+    "collapsible_content_RGLUTt"
   ]
 }
