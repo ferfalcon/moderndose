@@ -118,47 +118,17 @@
     "collapsible_content_aYrP3k": {
       "type": "collapsible-content",
       "blocks": {
-        "collapsible_row_HQxE8T": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_Wrn8VR": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_YL87zk": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
         "collapsible_row_pchTxE": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Collapsible row",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "{{ product.metafields.custom.benefits3 | metafield_tag: field: 'benefit' }}",
             "page": ""
           }
         }
       },
       "block_order": [
-        "collapsible_row_HQxE8T",
-        "collapsible_row_Wrn8VR",
-        "collapsible_row_YL87zk",
         "collapsible_row_pchTxE"
       ],
       "settings": {
