@@ -12,13 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {}
@@ -26,7 +19,7 @@
         "caption": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text": "{{ product.metafields.custom.supply_duration.value }}",
             "text_style": "subtitle"
           }
         },
@@ -100,7 +93,6 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "caption",
         "price",
@@ -120,7 +112,7 @@
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail_slider",
         "mobile_thumbnails": "columns",
         "media_position": "left",
         "image_zoom": "hover",
