@@ -1,8 +1,8 @@
 {% comment %}
-Product Detail Page (PDP) Benefits Section
-- Dynamically pulls benefits based on the product
-- Allows admin to edit/add benefits
-- Uses an accordion-style UI
+  Product Detail Page (PDP) Benefits Section
+  - Dynamically pulls benefits based on the product
+  - Allows admin to edit/add benefits
+  - Uses an accordion-style UI
 {% endcomment %}
 
 {% schema %}
@@ -38,30 +38,6 @@ Product Detail Page (PDP) Benefits Section
 }
 {% endschema %}
 
-{% comment %}
-Navigation Menu - Shop, Ingredients, Learn
-{% endcomment %}
-
-
-<div class="product-page container">
-  <div class="product-gallery">
-    {% for image in product.images %}
-      <img src="{{ image.src | img_url: 'large' }}" alt="{{ image.alt }}" />
-    {% endfor %}
-  </div>
-
-  <div class="product-info">
-    <h1>{{ product.title }}</h1>
-    <p>{{ product.description }}</p>
-    <p class="price">{{ product.price | money }}</p>
-    
-    <form method="post" action="/cart/add">
-      <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
-      <button type="submit">Add to Cart</button>
-    </form>
-  </div>
-</div>
-
 <div class="product-benefits container">
   <h2>Benefits of {{ product.title }}</h2>
   <div class="accordion">
@@ -75,12 +51,6 @@ Navigation Menu - Shop, Ingredients, Learn
     {% endfor %}
   </div>
 </div>
-
-{% if section.settings.enable_sticky_add_to_cart %}
-  <div class="sticky-add-to-cart">
-    <button>Add to Cart</button>
-  </div>
-{% endif %}
 
 <style>
   .accordion-item {
@@ -106,7 +76,7 @@ Navigation Menu - Shop, Ingredients, Learn
 </style>
 
 <script>
-  document.querySelectorAll('.accordion-header').forEach(button => {
+  document.querySelectorAll('.accordion-header').forEach((button) => {
     button.addEventListener('click', () => {
       button.classList.toggle('active');
       let content = button.nextElementSibling;
