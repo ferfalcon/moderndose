@@ -101,15 +101,6 @@
     "collapsible_content_RGLUTt": {
       "type": "collapsible-content",
       "blocks": {
-        "collapsible_row_VfG4jA": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "{{ metaobjects.benefits[\"prebiotic-fiber\"].name.value }}",
-            "icon": "star",
-            "row_content": "<p>{{ metaobjects.benefits[\"prebiotic-fiber\"].description | metafield_tag }}</p>",
-            "page": ""
-          }
-        },
         "collapsible_row_jBBLpw": {
           "type": "collapsible_row",
           "settings": {
@@ -130,7 +121,6 @@
         }
       },
       "block_order": [
-        "collapsible_row_VfG4jA",
         "collapsible_row_jBBLpw",
         "collapsible_row_eqQiyW"
       ],
