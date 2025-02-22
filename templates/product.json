@@ -105,15 +105,16 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "{{ metaobjects.benefits[\"prebiotic-fiber\"].name.value }}",
-            "icon": "check_mark",
+            "icon": "star",
             "row_content": "<p>{{ metaobjects.benefits[\"prebiotic-fiber\"].description | metafield_tag }}</p>",
             "page": ""
           }
         },
         "collapsible_row_WDbne8": {
           "type": "collapsible_row",
+          "source": "{{ metaobjects.benefits[\"digestive-health-gut-flora-balance\"] }}",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "",
             "icon": "check_mark",
             "row_content": "",
             "page": ""
