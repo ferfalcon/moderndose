@@ -227,17 +227,12 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "product_benefits_PRWtAH": {
-      "type": "product-benefits",
-      "settings": {}
     }
   },
   "order": [
     "main",
     "image-with-text",
     "multicolumn",
-    "related-products",
-    "product_benefits_PRWtAH"
+    "related-products"
   ]
 }
