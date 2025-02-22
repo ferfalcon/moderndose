@@ -20,6 +20,20 @@
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
+        "subscriptions_app_block_xEVBrC": {
+          "type": "shopify://apps/subscriptions/blocks/app-block/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
+          "settings": {
+            "color_text_title": "#6D7175",
+            "color_text_body": "#6D7175",
+            "dividers_color": "#8F8D8D",
+            "bacgkround_color": "#FFFFFF",
+            "border_thickness": 1,
+            "border_radius": 0,
+            "supporting_text_title": "Purchase options",
+            "subscription_policy_url": "",
+            "product": "{{product}}"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {}
@@ -48,31 +62,17 @@
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
-        },
-        "subscriptions_app_block_xEVBrC": {
-          "type": "shopify://apps/subscriptions/blocks/app-block/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
-          "settings": {
-            "color_text_title": "#6D7175",
-            "color_text_body": "#6D7175",
-            "dividers_color": "#8F8D8D",
-            "bacgkround_color": "#FFFFFF",
-            "border_thickness": 1,
-            "border_radius": 0,
-            "supporting_text_title": "Purchase options",
-            "subscription_policy_url": "",
-            "product": "{{product}}"
-          }
         }
       },
       "block_order": [
         "title",
         "judge_me_reviews_preview_badge_keXqQU",
+        "subscriptions_app_block_xEVBrC",
         "description",
         "caption",
         "variant_picker",
         "price",
-        "buy_buttons",
-        "subscriptions_app_block_xEVBrC"
+        "buy_buttons"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -116,7 +116,7 @@
           "repeater": "{{ product.metafields.custom.benefits3.value }}",
           "settings": {
             "question": "{{ block.repeater.name.value }}",
-            "answer": "<p>{{ block.repeater.description | metafield_tag }}</p>"
+            "answer": "{{ block.repeater.description | metafield_tag }}"
           }
         }
       },
