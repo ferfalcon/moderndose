@@ -231,6 +231,13 @@
     "product_benefits_PRWtAH": {
       "type": "product-benefits",
       "blocks": {
+        "benefit_b4q7L9": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "{{ product.metafields.custom.benefits | metafield_text }}",
+            "benefit_description": ""
+          }
+        },
         "benefit_aENYpb": {
           "type": "benefit",
           "settings": {
@@ -240,6 +247,7 @@
         }
       },
       "block_order": [
+        "benefit_b4q7L9",
         "benefit_aENYpb"
       ],
       "settings": {}
