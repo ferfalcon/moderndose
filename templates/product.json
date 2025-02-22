@@ -56,9 +56,9 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "{{ metaobjects.benefits[\"prebiotic-fiber\"].benefit.value }}",
+            "heading": "{{ metaobjects.benefit[\"benefit-i4ljmqc6\"].benefit.value }}",
             "icon": "leather",
-            "content": "<p>{{ metaobjects.benefits[\"prebiotic-fiber\"].benefit_description | metafield_tag }}</p>",
+            "content": "<p>{{ metaobjects.benefit[\"benefit-i4ljmqc6\"].benefit_description | metafield_tag }}</p>",
             "page": ""
           }
         },
