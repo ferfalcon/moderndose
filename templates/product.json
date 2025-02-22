@@ -227,12 +227,29 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "product_benefits_PRWtAH": {
+      "type": "product-benefits",
+      "blocks": {
+        "benefit_aENYpb": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Example",
+            "benefit_description": "Example description"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_aENYpb"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "main",
     "image-with-text",
     "multicolumn",
-    "related-products"
+    "related-products",
+    "product_benefits_PRWtAH"
   ]
 }
